@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(33, 27, 27);
+    color: aliceblue;
+    /* text-align: center; */
+    /* width: 80%; */
+}
+.row{
+    justify-content: center;
+    display: flex;
+    padding: 2px 224px;
+}
+
+.col1{
+    margin: 70px;
+}
+
+.text1{
+    font-size: 60px;
+}
+.text2{
+    font-size: 23px;
+    padding: 20px 0px;
+}
+
+.text3{
+    font-size: 18px;
+}
+
+.container2{
+    padding: 0px 174px;
+    font-size: 18px;
+
+    margin-top: 40px;
+}
+
+.about h2{
+    font-size: 35px;
+}
+
+.about p{
+    padding-top: 10px;
+}
+.achievements{
+    padding-top: 43px;
+}
+
+.achievements p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.achievements ol{
+    padding-bottom: 20px
+}
+li{
+    padding: 3px 0px;
+}
+.image{
+    width: 400px;
+    height: 550px;
+}
+
+cite{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
